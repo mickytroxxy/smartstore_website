@@ -1,0 +1,122 @@
+body{
+	font-family: 'Trirong', serif;
+	outline: none;
+}
+.navbar,.subnavbar{
+	background: #005e54;
+}
+.login-screen-title{
+  color: #005e54;
+}
+.firstPage{
+    background:url('../images/background.png');background-size: 100%;
+}
+.whatsbook-h1{
+    color: #ffffff;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ProceedBtn{
+  background: #005e54;
+  color: #ffffff;
+}
+#appName{
+	margin: 10px;
+}
+.item-media img{
+	border-radius: 100%;
+}
+.item-inner{
+	color: #4e5665;
+}
+.item-media{
+}
+.item-title{
+	font-weight: bold;
+}
+.listLeft{
+	float: right;
+}
+.listLeft img{
+	width: 10px;
+}
+.download-num{
+    color: #ffffff;
+    font-size: 11px;
+}
+.companyNameH1{
+	font-size: 30px;
+	font-weight: bolder;
+	color: #757575;
+}
+.itemIcon{
+  width: 100%;
+}
+.itemIcon,.uk-panel img{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0%;
+  -webkit-transform: translateY(-10%); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+  -ms-transform: translateY(-10%); /* IE 9 */
+  transform: translateY(-10%); /* IE 10, Fx 16+, Op 12.1+ */
+}
+.card-content-img{
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
+}
+.card-content-img1{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+.driver-balance-round{
+  border-radius: 100%;
+  border: 7px solid teal;
+  height: 200px;
+  width: 200px;
+}
+.driver-balance-round-inner{
+  margin-top: 50px;
+  color: #757575;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+.display-served-order-ul,.display-order-ul,.display-categories-ul,.card{
+	cursor: pointer;
+}

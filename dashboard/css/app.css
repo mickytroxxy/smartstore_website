@@ -1,0 +1,167 @@
+body,div,a,li,html,button,span,label,textarea,input{
+	font-family: inherit;
+	outline: none;
+}
+div,a,button,li,html,body,div,img{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.navbar,.subnavbar{
+	background: #e9eaed;
+}
+.subscriptionMonths,.subscriptionMonths option{
+    color:#757575;
+}
+.shop-list-ul-card,.custom-btn{
+	display: inline-block;
+}
+.shop-list-ul{
+	align-items: center;
+	align-content: center;
+}
+.item-table{
+	width: 100%;
+}
+.itemIcon1{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0%;
+}
+.bid-span,.price-span{
+    font-size:13px;
+    border: 1px solid teal;
+    border-radius:5px;
+    padding-left:6px;
+    padding-right:6px;
+}
+.like-btns-row{
+	border-top: 1px solid #e9eaed;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.moto-label,.wallet-balance-div{
+	color: #757575;
+	font-style: italic;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.main-menu-btn a{
+	width: 200px; background: #ccc;color: teal; font-weight: bold; border: 1px solid teal;
+}
+.touch-btns-div a{
+	display: inline-block;
+	font-size: 36px;
+	font-weight: bold;
+	width: 30%;
+	height: 50px;
+	margin: 1.2%;
+}
+.choose-answer-select{
+	color: #757575;
+	font-size: 18px;
+}
+.item-row-table div,.performance-table div{
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	text-transform: uppercase;
+	padding-left: 5px;
+}
+#right i{
+	margin: 10px;
+}
+#appName{
+	margin: 10px;
+}
+.item-media img{
+	border-radius: 100%;
+	border: 1px solid #ccc;
+}
+.item-inner{
+	color: #4e5665;
+
+}
+.item-title{
+	font-weight: 700;
+	font-size: 16px;
+	padding-bottom: 5px;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+}
+.profile-avatar-div img{
+  max-width: 100%;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+}
+body,.pages,.page{
+  background: #e9eaed;
+}
+.emergencyPhotoDiv{
+  top: 5px;
+  position: relative;
+}
+.emergencyPhoto{
+  max-width: 99%;
+}
+.content-block-a a{
+    margin-top: 8px;
+}
+.product-name-li{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	background: #ffffff;
+	display: inline-block;
+	overflow: hidden;
+}
+.product-name-li img{
+	max-width: 70%;
+}
+.product-label{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.speech-bubble {
+	position: relative; background: #e9eaed;
+	border-radius: .4em; padding: 5px;
+	width: 250px;
+	margin-top: 10px;
+}
+.speech-bubble:after {
+	content: ''; position: absolute;
+	right: 0; top: 50%; width: 0;
+	height: 0; border: 10px solid transparent;
+	border-left-color: #e9eaed; border-right: 0;
+	border-bottom: 0; margin-top: -10px;
+	margin-right: -10px;
+}
+.my-speech-bubble {
+	position: relative;
+	background: #e1ffc7; border-radius: .4em;
+	padding: 5px;
+	color: #757575;
+	margin-top: 10px;
+	width: 250px;
+}
+.my-speech-bubble:after {
+	content: ''; position: absolute;
+	left: 0; top: 50%; width: 0; height: 0;
+	border: 10px solid transparent;
+	border-right-color: #e1ffc7; border-left: 0;
+	border-bottom: 0; margin-top: -10px;
+	margin-left: -10px;
+}
+.student-btns div,.lecturer-buttons div,.admin-buttons div{
+    margin-top: 25px;
+}
+.show-mini-order-ul li,.cursor-pointer li{
+	cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .side-bar-div {
+    display: none;
+  }
+}
